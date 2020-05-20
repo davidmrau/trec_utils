@@ -1,0 +1,1 @@
+../lib/anserini/target/appassembler/bin/IndexCollection -collection TrecCollection -generator DefaultLuceneDocumentGenerator -input ../collections/CLUEWEB09_B/ -stemmer none -threads 10 -index ../collections/clueweb09b_index_anserini_no_stem

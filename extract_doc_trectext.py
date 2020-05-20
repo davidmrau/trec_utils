@@ -44,7 +44,7 @@ with open(out_file, 'w') as out:
 					count_succ += 1
 				else:
 					count_err += 1
-				out.write(make_elem(doc_name, doc_text))
+				out.write(make_elem(doc_name.strip(), doc_text.strip()))
 				doc = ''
 			else:
 				doc += line

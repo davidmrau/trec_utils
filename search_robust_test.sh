@@ -1,0 +1,3 @@
+../lib/anserini/target/appassembler/bin/SearchCollection -index ../collections/robust04_index_anserini_no_stem -topics ../collections/robust04_test/04.testset  -qld -hits 2000 -stemmer none -topicreader Trec -output ../results/robust04_TREC_test_anserini_top_2000_qld_ranking_results -inmem -threads 2
+
+../lib/anserini/target/appassembler/bin/SearchCollection -index ../collections/robust04_index_anserini_no_stem -topics ../collections/AOL_queries/AOL-queries-all_filtered.txt.names   -qld -stemmer none -topicreader TsvString -output ../results/robust04_AOL_anserini_top_1000_qld_no_stem -threads 10
